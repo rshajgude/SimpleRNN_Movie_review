@@ -14,7 +14,7 @@ rev_word_index={value:key for key, value in word_index.items()}
 
 
 # load model in h5 file
-model=tensorflow.keras.models.load_model('simple_rnn_imdb.h5')
+model=tensorflow.keras.models.load_model('./simple_rnn_imdb.h5')
 
 # 2 functions to convert text to vector so model can use another function for reversing vector to text
 
@@ -56,3 +56,4 @@ if st.button('Classify'):
 else:
 
     st.write('Please enter review')
+
