@@ -1,3 +1,4 @@
+python=3.11
 tensorflow
 pandas
 numpy
@@ -6,3 +7,4 @@ tensorboard
 matplotlib
 streamlit
 scikeras
+
